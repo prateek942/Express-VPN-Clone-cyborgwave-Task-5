@@ -1,0 +1,155 @@
+@media (max-width:1260px) {
+    .firstSection{
+        height: 100vh;
+    }
+
+    nav .links{
+        justify-content: end;
+    }
+
+    nav .links ul{
+        display: none;
+    }
+
+    nav .links .resLinks{
+        display: flex;
+    }
+
+    .main-content h1{
+        font-size: 90px;
+    }
+    
+    .main-content .para{
+        font-size: 25px;
+    }
+
+    .secondSection{
+        height: 50%;
+    }
+
+    .secondSection .second-main-content{
+        flex-direction: column-reverse;
+        width: 90%;
+        align-items: center;
+        justify-self: center;
+        gap: 50px;
+    }
+
+    .secondSection .second-main-content .left{
+        width: 90%;
+    }
+
+    .fourth-section .fourth-main-content{
+        width: 80%;
+    }
+
+    .sixth-section .tabs{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .seventh-section-main-content .content{
+        display: flex;
+        grid-gap: 0;
+    }
+
+    .seventh-section-main-content .content img{
+        width: 80%;
+    }
+
+    .eighth-section-main-content{
+        width: 90%;
+    }
+}
+
+@media (max-width:760px) {
+    nav .logo img{
+        width: 150px;
+        padding: 20px;
+    }
+
+    nav .links button{
+        display: none;
+    }
+    .main-content h1{
+        font-size: 60px;
+        width: 70%;
+        color: black;
+    }
+    .main-content button{
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main-content .para{
+        font-weight: 700;
+        text-wrap: wrap;
+        text-align: center;
+        width: 90%;
+    }
+
+    .secondSection{
+        height: 70%
+    }
+
+    .thirdSection .third-main-content{
+        width: 100%;
+    }
+
+    .third-sub-main-content{
+        flex-direction: column-reverse;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .third-sub-main-content-left{
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        padding-bottom: 20px;
+    }
+
+    .third-sub-main-content-right{
+        padding-top: 20px;
+    }
+
+    .fourth-section .fourth-main-content{
+        width: 90%;
+        display: block;
+    }
+
+    .sixth-section h1{
+        width: 100%;
+    }
+
+    .sixth-section .tabs{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .sixth-section .company-logos .logos img{
+        width: 16%;
+    }
+
+    .sixth-section .tabs .review-1 .app-store-review-1{
+        width: 80%;
+    }
+
+    .sixth-section .tabs .review-1 .play-store-review-1{
+        width: 80%;
+    }
+    
+    .seventh-section-main-content{
+        width: 90%;
+    }
+
+    .eighth-section-main-content{
+        width: 90%;
+        grid-template-columns: 1fr;
+    }
+
+    .eighth-section .w-40{
+        width: 70%;
+    }
+}
